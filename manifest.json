@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-14T16:47:00Z",
+  "generated_at": "2026-05-14T17:02:00Z",
   "firmware": {
-    "version": "1.1.5",
+    "version": "1.1.6",
     "hardware_model": "tondro-rife-esp32-v1",
     "channel": "stable",
-    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.5.bin",
-    "sha256": "6d5f438d9f698cb1da6c7782472350612adc154cb4cdd54827dddf05b4860e02",
-    "size_bytes": 1174560,
-    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.5.bin.sig",
-    "notes": "Begin-only OTA handshake. App verifies firmware size and SHA-256 before transfer."
+    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.6.bin",
+    "sha256": "74a643b3ac5a17e485eeff08a22e6f6c0956dd5bfc7af51c5d7cb7a2fb0d7e39",
+    "size_bytes": 1175984,
+    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.6.bin.sig",
+    "notes": "OTA debug build with trace notifications around begin and flash preparation."
   },
   "ios_app": {
     "version": "1.0",
