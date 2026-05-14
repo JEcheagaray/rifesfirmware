@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-14T00:00:00Z",
+  "generated_at": "2026-05-14T09:18:00Z",
   "firmware": {
     "version": "1.0.0",
     "hardware_model": "tondro-rife-esp32-v1",
     "channel": "stable",
-    "url": "https://github.com/JEcheagaray/rifesfirmware/releases/download/v1.0.0/TondroRifeController-v1.0.0.bin",
-    "sha256": "PENDING_EXPORT_FROM_ARDUINO_IDE",
-    "size_bytes": null,
-    "signature_url": "https://github.com/JEcheagaray/rifesfirmware/releases/download/v1.0.0/TondroRifeController-v1.0.0.bin.sig",
-    "notes": "Initial OTA metadata manifest. Firmware binary is pending export."
+    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.0.0.bin",
+    "sha256": "39f3185b803e8b392600bb6deb9e87811295f60f1f1789cbbede4fbf140a7526",
+    "size_bytes": 1160608,
+    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.0.0.bin.sig",
+    "notes": "Initial firmware binary exported with arduino-cli for OTA distribution testing."
   },
   "ios_app": {
     "version": "1.0",
