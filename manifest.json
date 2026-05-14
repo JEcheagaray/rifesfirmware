@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-14T14:55:00Z",
+  "generated_at": "2026-05-14T15:50:00Z",
   "firmware": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "hardware_model": "tondro-rife-esp32-v1",
     "channel": "stable",
-    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.1.bin",
-    "sha256": "8ed6ca7559dfad93c10bba4007ec19183497c547240af3d3e00607ac71095e10",
-    "size_bytes": 1171664,
-    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.1.bin.sig",
-    "notes": "Version-only OTA test build for update flow validation."
+    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.2.bin",
+    "sha256": "a6c0e024ed7c05201cc4921bfbe2e090776672b52bfb84d0e0019927e523e50b",
+    "size_bytes": 1171872,
+    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.2.bin.sig",
+    "notes": "OTA-capable partition test build with runtime OTA partition validation."
   },
   "ios_app": {
     "version": "1.0",
