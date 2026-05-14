@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-14T17:02:00Z",
+  "generated_at": "2026-05-14T18:00:47Z",
   "firmware": {
-    "version": "1.1.6",
+    "version": "1.1.7",
     "hardware_model": "tondro-rife-esp32-v1",
     "channel": "stable",
-    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.6.bin",
-    "sha256": "74a643b3ac5a17e485eeff08a22e6f6c0956dd5bfc7af51c5d7cb7a2fb0d7e39",
+    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.7.bin",
+    "sha256": "d51718c51ebb03894d9e83693b376e1b5f81eb70e1177dd74cc14d3493c922c1",
     "size_bytes": 1175984,
-    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.6.bin.sig",
-    "notes": "OTA debug build with trace notifications around begin and flash preparation."
+    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.7.bin.sig",
+    "notes": "OTA chunk-size test build. Advertises a 160-byte receiver buffer for faster BLE OTA transfers."
   },
   "ios_app": {
     "version": "1.0",
