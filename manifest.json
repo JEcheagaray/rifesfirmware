@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-14T10:33:00Z",
+  "generated_at": "2026-05-14T14:55:00Z",
   "firmware": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "hardware_model": "tondro-rife-esp32-v1",
     "channel": "stable",
-    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.0.bin",
-    "sha256": "1a41524e8e1706017cd49677e07099bca2de9efdbe2f6e5652472de73c3b3f1a",
+    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.1.bin",
+    "sha256": "8ed6ca7559dfad93c10bba4007ec19183497c547240af3d3e00607ac71095e10",
     "size_bytes": 1171664,
-    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.0.bin.sig",
-    "notes": "Adds authenticated BLE OTA firmware update support."
+    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.1.bin.sig",
+    "notes": "Version-only OTA test build for update flow validation."
   },
   "ios_app": {
     "version": "1.0",
