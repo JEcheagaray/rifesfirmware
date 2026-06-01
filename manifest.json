@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-14T18:19:34Z",
+  "generated_at": "2026-06-01T00:45:12Z",
   "firmware": {
-    "version": "1.1.8",
+    "version": "1.1.9",
     "hardware_model": "tondro-rife-esp32-v1",
     "channel": "stable",
-    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.8.bin",
-    "sha256": "c4e4848b3a84095365cbd9888e451388e56bba650b30480d76bb98da987729f4",
-    "size_bytes": 1177520,
-    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.8.bin.sig",
-    "notes": "Binary OTA protocol build. Keeps legacy hex OTA fallback and advertises 480-byte raw binary chunks."
+    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.9.bin",
+    "sha256": "d6ecdfba778828e9522391876b90b30e14b9d8a4c4914162187890ecd23b2398",
+    "size_bytes": 1165472,
+    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.9.bin.sig",
+    "notes": "Deterministic shutdown build. SETPOWER:0 immediately disables modulation and internal carrier, STOP forces outputs low even when already stopped, and serial debug is compiled off by default."
   },
   "ios_app": {
     "version": "1.0",
