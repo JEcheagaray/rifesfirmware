@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-04T00:09:14Z",
+  "generated_at": "2026-06-04T00:39:57Z",
   "firmware": {
-    "version": "1.1.11",
+    "version": "1.1.12",
     "hardware_model": "tondro-rife-esp32-v1",
     "channel": "stable",
-    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.11.bin",
-    "sha256": "a624434aa1d4673b45c2780e798bdf6b4c5570bd173d73e367027c6edabc896a",
-    "size_bytes": 1165440,
-    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.11.bin.sig",
-    "notes": "Version-only OTA validation build based on 1.1.10. Use this to confirm OTA update behavior on boards already running OTA-capable firmware."
+    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.12.bin",
+    "sha256": "16e774dd00d2d0afc1b70248886199cdc82363cd597445c4dcd8cc2dfab7c184",
+    "size_bytes": 1166192,
+    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.12.bin.sig",
+    "notes": "Adds non-blocking neon tube shutdown ramp. STOP and program completion now step power down every 500 ms before forcing modulation and carrier outputs off."
   },
   "ios_app": {
     "version": "1.0",
