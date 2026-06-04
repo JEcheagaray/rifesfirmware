@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-04T00:39:57Z",
+  "generated_at": "2026-06-04T00:51:35Z",
   "firmware": {
-    "version": "1.1.12",
+    "version": "1.1.13",
     "hardware_model": "tondro-rife-esp32-v1",
     "channel": "stable",
-    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.12.bin",
-    "sha256": "16e774dd00d2d0afc1b70248886199cdc82363cd597445c4dcd8cc2dfab7c184",
-    "size_bytes": 1166192,
-    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.12.bin.sig",
-    "notes": "Adds non-blocking neon tube shutdown ramp. STOP and program completion now step power down every 500 ms before forcing modulation and carrier outputs off."
+    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-v1.1.13.bin",
+    "sha256": "e1fdde0b2c7190b91b0aa049a4c5c6421d3954e844fb0bc036a937d1c6b3dbe6",
+    "size_bytes": 1166112,
+    "signature_url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/signatures/TondroRifeController-v1.1.13.bin.sig",
+    "notes": "Improves neon tube shutdown by switching modulation to 60 Hz before the non-blocking 500 ms power rampdown, then forcing modulation and carrier outputs off."
   },
   "ios_app": {
     "version": "1.0",
