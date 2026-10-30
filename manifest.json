@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T03:08:00Z",
+  "generated_at": "2026-10-30T03:20:00Z",
   "firmware": {
-    "version": "1.1.15",
+    "version": "1.1.16",
     "hardware_model": "sunshine-pulse-3-2026",
     "ota_compatibility_id": "sunshine-pulse-3-v1",
     "channel": "stable",
-    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-sunshine-pulse-3-v1.1.15.bin",
-    "sha256": "8a957676551b7af4cf9e7b9213dd8078758c0bca25c881fe52a063bcbf0bf97e",
-    "size_bytes": 1169360,
-    "notes": "Sunshine Pulse 3 only. Adds a write-once factory identity in NVS and locks future OTA when that identity is invalid. Legacy and unidentified machines are not eligible for this firmware."
+    "url": "https://raw.githubusercontent.com/JEcheagaray/rifesfirmware/main/firmware/TondroRifeController-sunshine-pulse-3-v1.1.16.bin",
+    "sha256": "0c866408c437d6b0fd46fa6fd98357e544a94b2167bd4327e440253ef7fed50a",
+    "size_bytes": 1169408,
+    "notes": "Sunshine Pulse 3 positive OTA test build. Reports that the persistent compatibility identity is sourced from NVS; legacy and unidentified machines remain ineligible."
   },
   "ios_app": {
     "version": "1.0",
